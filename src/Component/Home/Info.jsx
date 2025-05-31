@@ -17,28 +17,28 @@ const Info = () => {
           <div>
             <img src="/high.png" alt="" />
             <h2 className="text-4xl font-normal font-rancho text-text">
-              Awesome Aroma
+              High Quality
             </h2>
             <p className="text-base font-normal font-raleway text-p w-[300px] mt-2">
-              You will definitely be a fan of the design & aroma of your coffee
+              We served the coffee to you maintaining the best quality
             </p>
           </div>
           <div>
             <img src="/beans.png" alt="" />
             <h2 className="text-4xl font-normal font-rancho text-text">
-              Awesome Aroma
+              Pure Grades
             </h2>
             <p className="text-base font-normal font-raleway text-p w-[300px] mt-2">
-              You will definitely be a fan of the design & aroma of your coffee
+              The coffee is made of the green coffee beans which you will love
             </p>
           </div>
           <div>
             <img src="/rosting.png" alt="" />
             <h2 className="text-4xl font-normal font-rancho text-text">
-              Awesome Aroma
+              Proper Roasting
             </h2>
             <p className="text-base font-normal font-raleway text-p w-[300px] mt-2">
-              You will definitely be a fan of the design & aroma of your coffee
+              Your coffee is brewed by first roasting the green coffee beans
             </p>
           </div>
         </div>
