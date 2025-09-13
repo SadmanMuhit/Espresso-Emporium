@@ -4,7 +4,7 @@ const Info = () => {
   return (
     <>
       <section className="bg-info">
-        <div className="container m-auto pt-[55px] flex justify-center mx-auto gap-10 px-[300px] py-[55px]">
+        <div className="container mx-auto pt-[55px] flex justify-center gap-10 px-12">
           <div>
             <img src="/aroma.png" alt="" />
             <h2 className="text-4xl font-normal font-rancho text-text">

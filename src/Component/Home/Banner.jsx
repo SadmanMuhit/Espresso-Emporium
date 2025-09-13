@@ -3,25 +3,18 @@ import React from "react";
 const Banner = () => {
   return (
     <>
-      <section className="">
-        <div className="bg-[url(/banner.png)] py-[288px] bg-cover bg-center bg-no-repeat">
-          <div className="container m-auto flex justify-end items-center">
-            <div>
-              <h1 className="text-[55px] text-white font-rancho font-normal">
-                Would you like a Cup of Delicious Coffee?
-              </h1>
-              <p className="text-base text-white font-normal font-raleway mt-4 w-[724px]">
-                It's coffee time - Sip & Savor - Relaxation in every sip! Get
-                the nostalgia back!! Your companion of every moment!!! Enjoy the
-                beautiful moments and make them memorable.
-              </p>
-              <button className="mt-8 text-2xl font-normal font-rancho text-button py-[9px] px-[22px] transition-all duration-300 border border-transparent bg-orange hover:bg-transparent hover:text-white hover:border-white">
-                Learn More
-              </button>
-            </div>
-          </div>
+    <section className="relative">
+      <div className="absolute inset-0">
+        <img src="/banner.png" alt="" className="w-full h-full object-cover"/>
+      </div>
+      <div className="relative z-10 container m-auto pt-[288px] pb-[288px] flex justify-end">
+        <div>
+          <h1 className="text-white text-[55px] font-normal font-rancho">Would you like a Cup of Delicious Coffee?</h1>
+          <p className="text-white text-base font-raleway font-normal flex w-[724px]">It's coffee time - Sip & Savor - Relaxation in every sip! Get the nostalgia back!! Your companion of every moment!!! Enjoy the beautiful moments and make them memorable.</p>
+          <button>Learn More</button>
         </div>
-      </section>
+      </div>
+    </section>
     </>
   );
 };
